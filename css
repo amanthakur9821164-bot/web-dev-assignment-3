@@ -1,0 +1,185 @@
+/* for desktop */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header\ */
+#parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    height: 80px;
+}
+
+#child1{
+    color: white;
+    display: flex;
+    background-color: blue;
+    margin: 40px;
+
+}
+
+#child2{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+#parent2 {
+    display: flex;   
+    justify-content: space-between;
+}
+
+#c1 {
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+    padding-top: 80px;
+}
+
+#pic {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#c3 {
+    font-size: 25px;
+    padding: 50px;
+    padding-left: 5px;
+}
+
+#magic {
+    animation-name: box1;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes box1 {
+    0% {
+        color: red;
+    }
+    25% {
+        color: green;
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+
+#aab {
+    padding: 30px;
+    padding-bottom: 50px;   
+}
+
+#ab {
+    font-size: xx-large;
+}
+
+#s1 {
+    border: 2px solid blue;
+    border-radius: 15%;
+    height: 70px;
+    width: 330px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-bottom: 15px;
+}
+
+
+#s2 {
+    border: 2px solid blue;
+    border-radius: 15%;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-bottom: 15px;
+}
+
+
+
+#s3 {
+     border: 2px solid blue;
+    border-radius: 15%;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#sk {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ff{
+    margin: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+#f {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border: 2px solid white;
+    box-shadow: black 1px 1px 10px;
+    width: 250px;
+    height: 300px;
+    border-radius: 3%;
+    align-items: center;
+    position: relative;
+    left: 540px;
+}
+
+
+#bb{
+    margin: 30px;
+
+}
+
+#btnn {
+    height: 35px;
+    width: 90px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+
+}
+
+#foot {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
